@@ -19,5 +19,5 @@ from posts.views import HomePageView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', include('posts.urls')),
+    url(r'^', include('posts.urls')),
 ]
